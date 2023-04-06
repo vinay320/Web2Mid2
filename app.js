@@ -28,7 +28,7 @@ const orderRoutes = require('./routes/order');
 const productApis = require('./routes/api/productapi');
 
 
-const dbUrl = process.env.dbUrl || 'mongodb+srv://Shubhi2604:Shubhi2604@cluster0.dkpdnbm.mongodb.net/?retryWrites=true&w=majority'
+const dbUrl = process.env.dbUrl || 'mongodb+srv://vinaytomar939:vinaytomar939@cluster0.iqad31h.mongodb.net/?retryWrites=true&w=majority'
 
 mongoose.connect(dbUrl,{
     useNewURLParser: true,
